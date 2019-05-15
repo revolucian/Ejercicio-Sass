@@ -1,0 +1,25 @@
+header {
+    background: $negro;
+    padding: 20px;
+    @include flex(space-between, center, wrap)
+   
+    h1 {
+        color: $blanco;
+        margin: $margin-header-footer;
+        font-size: 50px;
+    } /*H1*/
+
+    ul {
+        margin:$margin-header-footer;
+
+    }
+
+    li{
+        @include estilosli();
+        @include borderRadius (5px);
+
+        a {
+            color:$negro;
+        }
+    }
+}/*HEADER*/

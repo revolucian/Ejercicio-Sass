@@ -1,0 +1,21 @@
+@mixin estilosli (){
+    display: inline-block;
+    margin: 0 10px;
+    background: $blanco;
+    padding: 5px;
+}
+
+@mixin borderRadius ($radio) {
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -o-border-radius: $radio;
+    -ms-border-radius: $radio;
+    border-radius: $radio;
+}
+
+@mixin flex($jc, $ai, $fw){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+}

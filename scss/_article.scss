@@ -1,0 +1,15 @@
+article {
+    padding: $paddingSecciones;
+
+    h2{
+    @extend %h2;
+    }
+
+    p{
+        @extend %p;
+    }
+
+    img {
+        @include borderRadius (50%);
+    }
+}

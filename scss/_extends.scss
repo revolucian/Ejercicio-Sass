@@ -1,0 +1,15 @@
+%h2 {
+    text-align: left;
+    font-size: $size-h2;
+    margin-bottom: 30px;
+    color: red;
+}
+
+%p {
+        font-size: $size-p;
+        line-height: $lh-p;
+        margin-bottom: 20px;
+        color: $negro;
+        padding: $paddingSecciones;
+
+}
